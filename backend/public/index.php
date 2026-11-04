@@ -1,5 +1,6 @@
 <?php
 header("Content-Type: application/json; charset=utf-8");
+header("Access-Control-Allow-Origin: http://localhost:3000");
 
 $aulas = [
     ["id" => 1, "nombre" => "Aula de Informática 1", "capacidad" => 30],
